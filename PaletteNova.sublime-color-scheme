@@ -1,0 +1,50 @@
+{
+  "name": "Palette from Nova.app",
+  "globals": {
+    "background": "#172737",
+    "foreground": "#FFFFFF",
+    "caret": "white",
+    "guide": "#184471",
+    "selection": "#33485F",
+    "gutter_foreground": "#405468",
+    "line_highlight": "#1A2C3F"
+  },
+  "rules": [
+    {
+      "name": "gray",
+      "scope": "comment,punctuation.definition.comment",
+      "foreground": "#797D7F",
+      "font_style": "italic"
+    },
+    {
+      "name": "light",
+      "scope": "punctuation,storage.type.function.arrow,keyword.operator.assignment",
+      "foreground": "#B2B9BF"
+    },
+    {
+      "name": "cyan",
+      "scope": "meta.property",
+      "foreground": "#76D4E7"
+    },
+    {
+      "name": "red",
+      "scope": "keyword.control,storage.type",
+      "foreground": "#FA464F"
+    },
+    {
+      "name": "blue",
+      "scope": "entity.name.function,variable.function",
+      "foreground": "#5BB1ED"
+    },
+    {
+      "name": "purple",
+      "scope": "constant,support.constant.builtin,variable.parameter.function",
+      "foreground": "#DF7AD6"
+    },
+    {
+      "name": "yellow",
+      "scope": "string,punctuation.definition.string,constant.character.escape.backslash.regexp,constant.other.character-class.escape.backslash.regexp,keyword.control.anchor.regexp,punctuation.definition.group.begin.regexp,punctuation.definition.group.end.regexp",
+      "foreground": "#FEC745"
+    },
+  ],
+}
